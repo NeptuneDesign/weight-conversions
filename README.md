@@ -1,11 +1,11 @@
 
 [<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
 
-# :package_description
+# Weight conversions in PHP
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![Tests](https://github.com/:vendor_slug/:package_slug/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/:vendor_slug/:package_slug/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/neptunedesign/weight-conversions.svg?style=flat-square)](https://packagist.org/packages/neptunedesign/weight-conversions)
+[![Tests](https://github.com/neptunedesign/weight-conversions/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/neptunedesign/weight-conversions/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/neptunedesign/weight-conversions.svg?style=flat-square)](https://packagist.org/packages/neptunedesign/weight-conversions)
 
 This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
 
@@ -14,14 +14,14 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require :vendor_slug/:package_slug
+composer require neptunedesign/weight-conversions
 ```
 
 ## Usage
 
 ```php
-$skeleton = new VendorName\Skeleton();
-echo $skeleton->echoPhrase('Hello, VendorName!');
+$skeleton = new NeptuneDesign\WeightConversions();
+echo $skeleton->echoPhrase('Hello, NeptuneDesign!');
 ```
 
 ## Testing
@@ -44,7 +44,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [Neptune Design](https://github.com/NeptuneDesign)
 - [All Contributors](../../contributors)
 
 ## License
