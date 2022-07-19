@@ -4,8 +4,9 @@ namespace NeptuneDesign\WeightConversions;
 
 class Weight
 {
-    public static function kilograms(float $kilograms): self
-    {
+    public static function kilograms(float $kilograms): self {
+        $myArray = array('1', '2');
+
         return new static($kilograms);
     }
 
